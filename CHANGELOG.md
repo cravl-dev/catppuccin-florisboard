@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.0](https://github.com/catppuccin/florisboard/compare/v1.0.1...v2.0.0) (RELEASE_DATE)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated to snygg v2 for compatibility with florisboard >= 0.5.0 ([#21](https://github.com/catppuccin/florisboard/issues/21)) ([0e78015](https://github.com/cravl-dev/catppuccin-florisboard/commit/0e780157c1823515970e47f2083ed3d66823316e), merged in [MERGE_COMMIT](#))
+* themes are now generated for each accent color, with pre-defined secondaries (changeable as always by editing the theme)
+
+
 ## [1.0.1](https://github.com/catppuccin/florisboard/compare/v1.0.0...v1.0.1) (2025-05-04)
 
 
