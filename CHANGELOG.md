@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/catppuccin/florisboard/compare/v1.0.1...v2.0.0) (RELEASE_DATE)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated to snygg v2 for compatibility with florisboard >= 0.5.0 ([#21](https://github.com/catppuccin/florisboard/issues/21)) ([5643fd2](https://github.com/cravl-dev/catppuccin-florisboard/commit/5643fd2b419b9cd073f3e94d21d11ca31396491c), merged in [MERGE_COMMIT](#))
+
 ## [1.0.1](https://github.com/catppuccin/florisboard/compare/v1.0.0...v1.0.1) (2025-05-04)
 
 
