@@ -2,7 +2,7 @@
   "$": "ime.extension.theme",
   "meta": {
     "id": "com.catppuccin.florisboard",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "title": "Catppuccin",
     "description": "🥀 Soothing pastel theme for FlorisBoard",
     "keywords": [
@@ -27,31 +27,13 @@
       "isNight": false
     },
     {
-      "id": "catppuccin_latte_borderless",
-      "label": "Catppuccin Latte (Borderless)",
-      "authors": [
-        "skinatro",
-        "sgoudham"
-      ],
-      "isNight": false,
-      "isBorderless": true
-    },
-    {
       "id": "catppuccin_frappe",
-      "label": "Catppuccin Frappe",
-      "authors": [
-        "skinatro",
-        "sgoudham"
-      ]
-    },
-    {
-      "id": "catppuccin_frappe_borderless",
-      "label": "Catppuccin Frappe (Borderless)",
+      "label": "Catppuccin Frappé",
       "authors": [
         "skinatro",
         "sgoudham"
       ],
-      "isBorderless": true
+      "isNight": true
     },
     {
       "id": "catppuccin_macchiato",
@@ -59,7 +41,35 @@
       "authors": [
         "skinatro",
         "sgoudham"
-      ]
+      ],
+      "isNight": true
+    },
+    {
+      "id": "catppuccin_mocha",
+      "label": "Catppuccin Mocha",
+      "authors": [
+        "skinatro",
+        "sgoudham"
+      ],
+      "isNight": true
+    },
+    {
+      "id": "catppuccin_latte_borderless",
+      "label": "Catppuccin Latte (Borderless)",
+      "authors": [
+        "skinatro",
+        "sgoudham"
+      ],
+      "isNight": false
+    },
+    {
+      "id": "catppuccin_frappe_borderless",
+      "label": "Catppuccin Frappé (Borderless)",
+      "authors": [
+        "skinatro",
+        "sgoudham"
+      ],
+      "isNight": true
     },
     {
       "id": "catppuccin_macchiato_borderless",
@@ -68,15 +78,7 @@
         "skinatro",
         "sgoudham"
       ],
-      "isBorderless": true
-    },
-    {
-      "id": "catppuccin_mocha",
-      "label": "Catppuccin Mocha",
-      "authors": [
-        "skinatro",
-        "sgoudham"
-      ]
+      "isNight": true
     },
     {
       "id": "catppuccin_mocha_borderless",
@@ -85,7 +87,7 @@
         "skinatro",
         "sgoudham"
       ],
-      "isBorderless": true
+      "isNight": true
     }
   ]
 }
