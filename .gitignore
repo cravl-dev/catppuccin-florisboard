@@ -1,4 +1,3 @@
 *.flex
 dist
-extension.json
 .vscode
