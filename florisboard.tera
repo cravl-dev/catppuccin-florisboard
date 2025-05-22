@@ -21,7 +21,7 @@ secondary: "lavender"
     "--surface-variant": "#{{ surface0.hex }}",
     "--disabled": "#{{ surface0.hex }}",
 
-    "--popup-surface": "#{{ surface2.hex }}",
+    "--popup-surface": "#{{ surface1.hex }}",
     "--focused-popup-surface": "#{{ overlay0.hex }}",
 
     "--drag-marker": "#{{ secondary.hex }}",
@@ -59,6 +59,7 @@ secondary: "lavender"
     "background": "var(--surface-variant)",
     "foreground": "var(--on-surface)"
   },
+  {# enter #}
   "key[code=10]": {
     "background": "var(--primary)",
     "foreground": "var(--background)"
@@ -67,21 +68,26 @@ secondary: "lavender"
     "background": "var(--primary-variant)",
     "foreground": "var(--background)"
   },
+  {# space #}
   "key[code=32]": {
     "background": "var(--{% if variant == "_borderless" %}background{% else %}surface{% endif %})",
     "foreground": "var(--on-surface-variant)",
     "font-size": "12sp",
     "text-overflow": "ellipsis"
   },
+  {# view_characters, view_symbols, view_symbols2 #}
   "key[code=-201,-202,-203]": {
     "font-size": "18sp"
   },
+  {# view_numeric, view_numeric_advanced #}
   "key[code=-204,-205]": {
     "font-size": "12sp"
   },
+  {# view_numeric_advanced #}
   "key[code=-205]": {
     "text-max-lines": "2"
   },
+  {# shift #}
   "key[code=-11][shiftstate=`caps_lock`]": {
     "foreground": "var(--secondary)"
   },
@@ -90,11 +96,11 @@ secondary: "lavender"
     "foreground": "var(--on-surface-variant)",
     "font-family": "monospace",
     "font-size": "12sp",
-    "padding": "0dp 1dp 1dp 0dp",
+    "padding": "0dp 1dp 2dp 0dp",
     "text-max-lines": "1"
   },
   "key-popup-box": {
-    "background": "var(--surface)",
+    "background": "var(--popup-surface)",
     "foreground": "var(--on-surface)",
     "font-size": "22sp",
     "shape": "var(--shape)",
@@ -171,8 +177,8 @@ secondary: "lavender"
   "smartbar-candidate-word": {
     "background": "transparent",
     "foreground": "var(--primary)",
-    "font-size": "16sp",
-    "font-weight": "semi-bold",
+    "font-size": "15sp",
+    "font-weight": "400",
     "padding": "10dp 4dp 10dp 4dp",
     "shape": "rectangle()",
     "text-max-lines": "1",
@@ -188,9 +194,11 @@ secondary: "lavender"
     "text-max-lines": "2",
     "text-overflow": "ellipsis"
   },
+  {# noop #}
   "smartbar-actions-editor-tile[code=-999]": {
     "foreground": "var(--on-background-disabled)"
   },
+  {# drag_marker #}
   "smartbar-actions-editor-tile[code=-991]": {
     "foreground": "var(--drag-marker)"
   },
@@ -280,7 +288,7 @@ secondary: "lavender"
   "clipboard-history-disabled-button": {
     "background": "var(--primary)",
     "foreground": "var(--on-primary)",
-    "shape": "rounded-corner(24dp,24dp,24dp,24dp)"
+    "shape": "rounded-corner(24dp, 24dp, 24dp, 24dp)"
   },
   "clipboard-history-locked-title": {
     "font-weight": "bold",
