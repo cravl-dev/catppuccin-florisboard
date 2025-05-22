@@ -131,6 +131,7 @@ secondary: "lavender"
   "smartbar-action-key": {
     "background": "transparent",
     "foreground": "var(--on-background)",
+    "margin": "2dp",
     "shape": "var(--shape)"
   },
   "smartbar-action-key:disabled": {
@@ -140,11 +141,15 @@ secondary: "lavender"
     "background": "transparent",
     "foreground": "var(--on-background)",
     "font-size": "14sp",
+    "margin": "4dp 0dp",
     "shape": "var(--shape)",
     "text-max-lines": "2",
     "text-align": "center",
     "text-overflow": "ellipsis"
   },
+  "smartbar-action-tile-icon": {
+    "font-size": "18sp"
+  }
   "smartbar-action-tile:disabled": {
     "foreground": "var(--on-background-disabled)"
   },
@@ -174,22 +179,13 @@ secondary: "lavender"
     "foreground": "var(--on-background)",
     "font-size": "16sp"
   },
-  "smartbar-candidate-word": {
-    "background": "transparent",
-    "foreground": "var(--primary)",
-    "font-size": "15sp",
-    "font-weight": "400",
-    "padding": "10dp 4dp 10dp 4dp",
-    "shape": "rectangle()",
-    "text-max-lines": "1",
-    "text-overflow": "ellipsis"
-  },
   "smartbar-actions-editor-tile-grid": {
-    "margin": "4dp 0dp"
+    "margin": "8dp 8dp 10dp 8dp"
   },
   "smartbar-actions-editor-tile": {
-    "margin": "4dp",
-    "padding": "8dp",
+    "font-size": "14sp",
+    "margin": "0dp 4dp 4dp 4dp",
+    "padding": "2dp",
     "text-align": "center",
     "text-max-lines": "2",
     "text-overflow": "ellipsis"
@@ -202,6 +198,16 @@ secondary: "lavender"
   "smartbar-actions-editor-tile[code=-991]": {
     "foreground": "var(--drag-marker)"
   },
+  "smartbar-candidate-word": {
+    "background": "transparent",
+    "foreground": "var(--primary)",
+    "font-size": "15sp",
+    "font-weight": "400",
+    "padding": "10dp 4dp 10dp 4dp",
+    "shape": "rectangle()",
+    "text-max-lines": "1",
+    "text-overflow": "ellipsis"
+  },
   "smartbar-candidate-word:pressed": {
     "background": "var(--surface)",
     "foreground": "var(--on-background)"
@@ -210,11 +216,17 @@ secondary: "lavender"
     "background": "transparent",
     "foreground": "var(--on-surface)",
     "font-size": "14sp",
-    "shape": "rounded-corner(8%, 8%, 8%, 8%)"
+    "margin": "4dp 4dp 4dp 2dp",
+    "padding": "10dp 0dp",
+    "shape": "rectangle()"
   },
   "smartbar-candidate-clip:pressed": {
     "background": "var(--surface)",
     "foreground": "var(--on-surface)"
+  },
+  "smartbar-candidate-clip-icon": {
+    "font-size": "18sp",
+    "margin": "0dp 0dp 8dp 0dp"
   },
   "smartbar-candidate-spacer": {
     "foreground": "var(--spacer-color)"
