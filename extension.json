@@ -2,7 +2,7 @@
   "$": "ime.extension.theme",
   "meta": {
     "id": "com.catppuccin.florisboard",
-    "version": "2.0.0",
+    "version": "1.0.1",
     "title": "Catppuccin",
     "description": "🥀 Soothing pastel theme for FlorisBoard",
     "keywords": [
@@ -33,7 +33,8 @@
         "skinatro",
         "sgoudham"
       ],
-      "isNight": false
+      "isNight": false,
+      "isBorderless": true
     },
     {
       "id": "catppuccin_frappe",
@@ -41,8 +42,7 @@
       "authors": [
         "skinatro",
         "sgoudham"
-      ],
-      "isNight": true
+      ]
     },
     {
       "id": "catppuccin_frappe_borderless",
@@ -51,7 +51,7 @@
         "skinatro",
         "sgoudham"
       ],
-      "isNight": true
+      "isBorderless": true
     },
     {
       "id": "catppuccin_macchiato",
@@ -59,8 +59,7 @@
       "authors": [
         "skinatro",
         "sgoudham"
-      ],
-      "isNight": true
+      ]
     },
     {
       "id": "catppuccin_macchiato_borderless",
@@ -69,7 +68,7 @@
         "skinatro",
         "sgoudham"
       ],
-      "isNight": true
+      "isBorderless": true
     },
     {
       "id": "catppuccin_mocha",
@@ -77,8 +76,7 @@
       "authors": [
         "skinatro",
         "sgoudham"
-      ],
-      "isNight": true
+      ]
     },
     {
       "id": "catppuccin_mocha_borderless",
@@ -87,7 +85,7 @@
         "skinatro",
         "sgoudham"
       ],
-      "isNight": true
+      "isBorderless": true
     }
   ]
 }
